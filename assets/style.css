@@ -1,0 +1,26 @@
+:root { color-scheme: dark; }
+.stApp { background: #08111f; color: #e8f0fb; }
+[data-testid="stHeader"] { background: rgba(8,17,31,.92); }
+[data-testid="stSidebar"] { background: #0b1728; border-right: 1px solid #1c3048; }
+[data-testid="stSidebar"] * { color: #dce8f7; }
+.block-container { padding-top: 2rem; padding-bottom: 3rem; max-width: 1500px; }
+h1,h2,h3 { color: #f1f6ff !important; letter-spacing: -.025em; }
+p, label, [data-testid="stMarkdownContainer"] { color: #b7c7da; }
+.hero { padding: 2.2rem 2.4rem; border: 1px solid #1e3c59; border-radius: 22px; background: linear-gradient(115deg,#10243a 0%,#0b192b 65%,#102d42 100%); margin-bottom: 1.8rem; }
+.hero h1 { font-size: clamp(2rem,4vw,3.3rem); line-height: 1.1; margin: .5rem 0 1rem; }
+.hero h1 span { color: #55c7e8; }
+.hero p { max-width: 720px; font-size: 1.05rem; }
+.eyebrow { color: #5bc9e9; font-size: .72rem; letter-spacing: .16em; font-weight: 700; }
+.panel { background: #0e1d30; border: 1px solid #203750; border-radius: 18px; padding: 1.25rem; min-height: 190px; }
+.panel h3 { margin: .4rem 0; }
+.panel p { font-size: .92rem; line-height: 1.55; }
+.panel-icon { font-size: 1.7rem; }
+div[data-testid="stMetric"] { background: #0e1d30; border: 1px solid #203750; padding: 1rem 1.1rem; border-radius: 15px; }
+div[data-testid="stMetricLabel"] { color: #9db3ca; }
+div[data-testid="stMetricValue"] { color: #f4f8ff; }
+.stButton button, .stDownloadButton button { border-radius: 10px; border: 1px solid #27789a; background: #12334a; color: #eafaff; font-weight: 600; }
+.stButton button:hover, .stDownloadButton button:hover { border-color: #59c9e9; background: #17435e; color: white; }
+.stTextInput input, .stNumberInput input, .stSelectbox div[data-baseweb="select"] { background: #0d1c2e; }
+div[data-testid="stDataFrame"] { border: 1px solid #203750; border-radius: 12px; overflow: hidden; }
+hr { border-color: #203750; }
+div[data-testid="stAlert"] { border-radius: 12px; }
